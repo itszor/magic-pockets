@@ -1,0 +1,86 @@
+{
+ "name": "magic-pockets",
+ "title": "Magic Pockets (The Bitmap Brothers, 1991; Archimedes conversion, Renegade, 1993)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py). One disc, dumped by Arculator as an .apd (its protection track 79 side 0 kept).",
+ "inputs": {
+  "containers": {
+   "Magic Pockets (1993) (Renegade).zip": "5d8863859355354cde8e88b1c647ecb1dbd40e4a4216aa0161fd8d1d40c25345"
+  },
+  "formats": [
+   "apd",
+   "adf",
+   "zip"
+  ]
+ },
+ "discs": [
+  {
+   "name": "disc",
+   "title": "Magic Pockets: !Pockets (Loader, Intro, Pockets, TrackerModule, the levels, graphics and music)",
+   "known_images": [
+    "a499a095a8c25e267f774067ff179bc39d8880370c7ea9d701737de562ff1d97"
+   ],
+   "key_files": {
+    "!Pockets/!Run": "7bf8f808acd7ca0eb17592831f071cd9a2a7d7a13d6fad4c7625bd317d8ef8eb",
+    "!Pockets/Data/APE": "799c9f6f822cd634b1e3c1c1a5c60e8fba96d84052c6cbeab9b8646d24a67182",
+    "!Pockets/Data/APE.S": "6923f23d8c2566eb393476ce1cafe61eaeee714d0fb9f5e0c131b447cede5c8c",
+    "!Pockets/Data/APPLAUSE.S": "8eb5d3aeb21e8201578526479993b09f1dddcdeb90ee159d5859ea006eb73ae3",
+    "!Pockets/Data/ENDSCRN": "0e735c7d235cbdbc6ebdcb2782d98c6221090f490c664428cb024c1fe88b1e7b",
+    "!Pockets/Data/GAME.S": "cd221eae5cbf10d54dd21e481098cdc70bf4ace7f409a49b6bcc9937031f1433",
+    "!Pockets/Data/LEVEL0": "b5e929d8f8ccc3ebeb6221f3854c44707a67cccb59cfd98b67c82ce2df981e05",
+    "!Pockets/Data/LEVEL1": "a8fcba02334937bbe0b08e02160d3271a6a5eda934511bcad247b227cfb51a2a",
+    "!Pockets/Data/LEVEL2": "b69d0f186277b80806026c6a835406faecf938c57e5a9a3e00184d68cd833d05",
+    "!Pockets/Data/LEVEL3A": "03fa159178ccb2cd2d29d5b9f83e9e2020589be7ac01006c81f2642c91a27c92",
+    "!Pockets/Data/LEVEL3B": "8c105b1e85cec8eff6f291ce4b46755c2ecc292a1a8292d1feba5c051dacd845",
+    "!Pockets/Data/LEVEL3C": "c628c6c06dc0af70b4356ab2237539ec83e61b0b5ea74cb6d6fba1b810b230d6",
+    "!Pockets/Data/LEVEL4": "e5b37157ab57dce9e8e214f06260d4fa7aee20cb89c0567e8d41d4a5c1246aa8",
+    "!Pockets/Data/NEW": "7469844576dbd5a17c69db3b2de4988b2df80a17962e41bae8313dc9d92109ff",
+    "!Pockets/Data/STBITKID": "8418879d1e53dabf5181393cd9e404128f2300ffcf4410ee1b7f0f8c83690d27",
+    "!Pockets/Data/STDATA1": "7218669907227b6044f4e77953c202b4d497633c59551269ca454accf5fb1e1a",
+    "!Pockets/Data/STDATA2": "21d7895f47f4f77bb66fbb8288efc0e2180e151e201f13d1544528dc62192162",
+    "!Pockets/Data/STDATA3": "57ba622658595d3d79aa8c441a7b40e3d22a86c755e43eec9b204417fc83c191",
+    "!Pockets/Data/STDATA4": "680e7d2b21c73d777f766c276faceb33fd5cd8763f2dc4e55adcd42b81ecef64",
+    "!Pockets/Data/STEXTRAS": "ef1b091ea4db762a73d589d369d7b6ec9620c8cd539288e197e35a0c78a9b094",
+    "!Pockets/Data/STKID1": "43a30a0c155f2d48476e9ec5a47c425ed7fff31f892a422d819f4c85b85d00ff",
+    "!Pockets/Data/STKID2": "312b4935744108f697c307ad434497d4270d26ea5a9450aaf79d3a3c4d427bea",
+    "!Pockets/Data/STKID3": "0e2efa364cac3d05e88b410e12e84b2d3dff69437dae27fe4a3d4887ab743e6a",
+    "!Pockets/Data/STKID4": "0345d62aa66ebebe9002bb09e563e747dd89d224c13affcc7ce4347602502825",
+    "!Pockets/Data/map/LEVEL1A": "f2fd354cf7472be739d798b83cfa235e8dd2f317ef3ae4b7e5100e7d3361869d",
+    "!Pockets/Data/map/LEVEL1B": "cecf6eb7894e84a5fc83ef9f7a016f08bfc20fc8fa68fb6c340c25034582ac3d",
+    "!Pockets/Data/map/LEVEL2A": "51187cd1d8568ff4a9c829f1fa7300d35dc82c46061758b22cd98fb97d66dbe3",
+    "!Pockets/Data/map/LEVEL2B": "c15f48ba036e804f6a456fd165575ff65868f9958f4b9b423b9ada880a9a6a7a",
+    "!Pockets/Data/map/LEVEL3A": "42f36e3acd4eed4720fb30f883244331f54d03fc49ea795bea116034a9072d84",
+    "!Pockets/Data/map/LEVEL3B": "0b7a5e6c34cbd9f07e603a61f5099cf61f65adcffcdbd04fd143886066df93f1",
+    "!Pockets/Data/map/LEVEL4A": "4777bc47b1455ddc26be87800eb8e5316eb1ac918140f51cb135f2a331acad6b",
+    "!Pockets/Data/map/LEVEL4B": "31410a4daf569587a9f628c43ad8bf2ad4391504b7e6318aef3f6a4e5cee51ff",
+    "!Pockets/Data/map/SEA": "b7187cd1f0daeeb3e13fa7b0d090a33b8dd4c2e813ded9bd56d18d053ac9ac00",
+    "!Pockets/Intro": "46d9fd5242366d9a4a5782b0a0805f81c4b16bd3bc2713ceb3fdf4f13fb8c7b3",
+    "!Pockets/Loader": "33a043c5d3ca71641e084db1b88029d974fa22a4ae8fa5ee7f7988f7a382719e",
+    "!Pockets/PM": "3f2b508fb240ad6ea115581765ca7d41f3b06e684adea226b0c43345ebfe19a6",
+    "!Pockets/Pockets": "10ecc407b95d613874e6be79da072611e04e8818f95971f0b4ad14ed56824a14"
+   },
+   "game_dirs": [
+    "!Pockets"
+   ],
+   "raw": true
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "python3 -I tools/unpack.py",
+  "make -C recomp regen",
+  "make -C recomp"
+ ],
+ "output": "recomp/pockets",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen, tools/weave.py, tools/apd.py, tools/arm2.py",
+  "libroger": "~/stuff/libroger, or make ROGER=...",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./pockets"
+}

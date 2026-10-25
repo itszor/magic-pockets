@@ -1,0 +1,13 @@
+extracted/
+game/
+unpacked/
+recomp/gen*/
+recomp/*.o
+recomp/pockets
+recomp/recomp.*
+recomp/*.bmp
+recomp/*.log
+recomp/savedata/
+*.apd
+*.zip
+analysis/*.json
