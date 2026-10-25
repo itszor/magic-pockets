@@ -34,13 +34,15 @@ What it makes:
     recomp/pockets       the game
 
 Committed: recipe.json, build.sh, tools/unpack.py, analysis/loader.roots,
-recomp/Makefile, recomp/game.c, this file.
+recomp/Makefile, recomp/game.c, recomp/pockets.ini, this file.
 
 Playing
 -------
 
     ./pockets               as !Run: the intro (Renegade, the Bitmap Brothers, the
                             title, with music), then the demo, and round again
+    ./pockets --crop        less letterboxing on a widescreen monitor: rows 0-207
+                            (recomp/pockets.ini)
 
 Keys: Z left, X right, ' up (jump), / down, Return fire (the game's
 defaults; its own key table at &35F81). Return in the intro starts a game.
